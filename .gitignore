@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data / ML artifacts
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

@@ -42,7 +42,7 @@ class TelemetryFrame(BaseModel):
         driver/track/car/weather/tires/session_type for every frame.
         """
         return cls(
-            source="gt7",
+            source=session.platform,
             timestamp=datetime.now(),
             lap=t.current_lap,
             speed_kph=t.speed_kph,
